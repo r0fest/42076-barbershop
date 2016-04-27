@@ -98,3 +98,21 @@ h2 {
 	outline: 1px solid green;
 }
 
+.gallery-bl,
+.description {
+	float: left;
+	outline: 1px solid green;
+}
+
+.gallery-bl {
+	width: 460px;
+}
+
+.description {
+	width: 740px;
+}
+
+.articul {
+	float: right; /* text-align не работает, хотя это строчный элемент... 
+					 если задавать на родителя p (блочный) тогда весь текст перемещается вправо  */
+}
