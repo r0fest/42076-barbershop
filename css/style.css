@@ -1,8 +1,3 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
   font-size: 14px;
   line-height: 24px;
@@ -24,14 +19,15 @@ h2 {
 }
 
 .container {
-	width: 1200px;
+	width: 940px;
+	padding-left: 10px;
+	padding-right: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	outline: 1px solid yellow;
 }
 
-.container:after, 
-.breadcrumbs:after {
+.clearfix:after {
 	content: '';
 	display: table;
 	clear: both;
@@ -69,13 +65,14 @@ h2 {
 }
 
 .block-left,
-.block-right,
 .product,
 .product-price {
 	float: left;
 }
 
-
+.block-right {
+	float: right;
+}
 
 .product:nth-child(4),
 .number-pages {
@@ -109,7 +106,11 @@ h2 {
 }
 
 .description {
-	width: 740px;
+	width: 480px;
+}
+
+.gallery-product {
+	margin: 0;
 }
 
 .articul {
